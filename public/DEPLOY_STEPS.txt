@@ -1,0 +1,14 @@
+1Minute Rewards — Render deployment
+
+1) GitHub-এ নতুন repository বানাও: 1minute-rewards
+2) এই ZIP-এর ভেতরের সব file repository-তে upload করো।
+3) Render → New → Web Service → GitHub repository select করো।
+4) Render চাইলে render.yaml ব্যবহার করবে।
+5) Build Command: npm install
+6) Start Command: npm start
+7) Deploy করো।
+
+IMPORTANT:
+- এই starter SQLite ব্যবহার করে; production-এ persistent database দরকার।
+- Public launch-এর আগে admin authentication, secure sessions, HTTPS, rate limiting, fraud controls, backups এবং proper payment integration যোগ করতে হবে।
+- কোনো guaranteed-income বা fake earning claim ব্যবহার করবে না।
